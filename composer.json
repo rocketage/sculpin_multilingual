@@ -1,0 +1,23 @@
+{
+  "name": "rocketage/sculpin-multilingual-bundle",
+  "version": "1.0.0",
+  "description": "Sculpin Multilingual Bundle",
+  "homepage": "https://sculpin.io",
+  "keywords": ["multilingual", "blogging", "blog", "static", "site"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rick Peacock",
+      "email": "audiodogg@gmail.com",
+      "homepage": "http://www.audiodog.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-0": { "Rocketage\\Sculpin\\Bundle\\MultilingualBundle": "" }
+  },
+  "target-dir": "Rocketage/Sculpin/Bundle/MultilingualBundle",
+  "minimum-stability": "beta"
+}
